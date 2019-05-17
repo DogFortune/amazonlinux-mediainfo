@@ -1,4 +1,8 @@
-# Amazonlinux2-Mediainfo
+# Amazonlinux-Mediainfo
 
-Amazonlinux2上でMediainfoをコンパイルする為のDockerイメージです。
+Amazonlinux上でMediainfoをコンパイルする為のDockerイメージです。
 Lambda内でMediainfoを動かしたい場合は、Amazonlinux上でコンパイルする必要がありますが、いちいちEC2を使ってコンパイルするのは面倒なので、環境の統一の為に作成しました。
+
+## Lambdaに埋め込んで使うには？
+/usr/local/binの中にmediainfoのバイナリがありますので、それをホストマシンにコピーして取り出して下さい。
+後はLambdaの実行ファイルと一緒にzipで固めてデプロイすれば完了です。
