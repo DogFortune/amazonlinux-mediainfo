@@ -1,3 +1,8 @@
+# THIS REPOGITORY IS ARCHIVED
+公式からAWS Lambda用のバイナリが公開されております。  
+[リンク](https://mediaarea.net/en/MediaInfo/Download/Lambda)  
+このリポジトリは役目を終えたのでアーカイブします。
+
 # Amazonlinux-Mediainfo
 
 https://hub.docker.com/r/dogfortune/amazonlinux-mediainfo
